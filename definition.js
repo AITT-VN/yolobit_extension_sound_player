@@ -193,48 +193,23 @@ Blockly.Blocks['yolobit_sound_action'] = {
             name: "action",
             options: [
               [
-                {
-                  "src": "https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_sound_player/images/play.png",
-                  "width": 50,
-                  "height": 20,
-                  "alt": "*"
-                },
+                "Phát nhạc",
                 "play"
               ],
               [
-                {
-                  "src": "https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_sound_player/images/pause.png",
-                  "width": 50,
-                  "height": 20,
-                  "alt": "*"
-                },
+                "Tạm dừng",
                 "pause"
               ],
               [
-                {
-                  "src": "https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_sound_player/images/stop.png",
-                  "width": 50,
-                  "height": 20,
-                  "alt": "*"
-                },
+                "Dừng phát nhạc",
                 "stop"
               ],
               [
-                {
-                  "src": "https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_sound_player/images/next.png",
-                  "width": 50,
-                  "height": 20,
-                  "alt": "*"
-                },
+                "Phát bài nhạc kế tiếp",
                 "play_next"
               ],
               [
-                {
-                  "src": "https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_sound_player/images/previous.png",
-                  "width": 50,
-                  "height": 20,
-                  "alt": "*"
-                },
+                "Phát bài nhạc trước đó",
                 "play_previous"
               ]
             ]
