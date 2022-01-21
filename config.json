@@ -1,0 +1,14 @@
+{
+    "name": "Sound Player",
+    "description": "Mục mở rộng của Yolo:Bit cho module Sound Player",
+    "libs": [
+        "yolobit_sound_player.py"
+    ],
+    "blocks": [
+        "definition.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {
+    },
+    "poster": "poster.png"
+}
