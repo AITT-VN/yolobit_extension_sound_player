@@ -3,13 +3,13 @@ Blockly.Blocks['yolobit_sound_start'] = {
     this.jsonInit(
       {
         type: "yolobit_sound_start",
-        message0: "khởi động máy nghe nhạc chân RX %1 chân TX %2",
+        message0: "khởi động máy nghe nhạc chân TX %1 chân RX %2",
         previousStatement: null,
         nextStatement: null,
         args0: [
           {
             type: "field_dropdown",
-            name: "RX",
+            name: "TX",
             "options": [
               [
                 "P3",
@@ -91,7 +91,7 @@ Blockly.Blocks['yolobit_sound_start'] = {
           },
           {
             "type": "field_dropdown",
-            "name": "TX",
+            "name": "RX",
             "options": [
               [
                 "P6",
@@ -278,7 +278,7 @@ Blockly.Python['yolobit_sound_start'] = function(block) {
   var rx = block.getFieldValue('RX');
   Blockly.Python.definitions_['import_yolobit'] = 'from yolobit import *';
   Blockly.Python.definitions_['import_sound_player'] = 'from yolobit_sound_player import *';
-  Blockly.Python.definitions_['create_sound'] = 'sound = machine.UART(2, baudrate=9600, rx=' + rx + '.pin, tx=' + tx + '.pin)';
+  Blockly.Python.definitions_['create_sound'] = 'sound = machine.UART(1, baudrate=9600, rx=' + rx + '.pin, tx=' + tx + '.pin)';
   var code = '';
   return code;
 };
